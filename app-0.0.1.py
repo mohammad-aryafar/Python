@@ -18,9 +18,9 @@ wbr = Workbook()
 # Add a worksheet with name 'Sheet1' where the results will be written 
 sheet1 = wbr.add_sheet('Sheet 1') 
 # Add headers to columns that reperesents each field
-sheet1.write(0, 0, 'ImageA') 
-sheet1.write(0, 1, 'ImageB') 
-sheet1.write(0, 2, 'Score') 
+sheet1.write(0, 0, 'image1') 
+sheet1.write(0, 1, 'image2') 
+sheet1.write(0, 2, 'similar') 
 sheet1.write(0, 3, 'Elapsed') 
 # Save the workbokk
 wbr.save('results.xls')  
