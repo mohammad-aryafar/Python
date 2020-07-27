@@ -1,6 +1,13 @@
+Objective
+=========
+Objective of this tool is to automate the image comparison which is currently being done by collegues.
+My first goal was to research and select a language which had existing libraries/modules that handled the complexity of comparing two images perceptually, not with binary data of the images. Looking at existing resources, the closest solution was SSIM(Structral Similarity Index) for comparing images. Hence, this tool is written based on the SSIM method. 
+Second goal was to select a language which is easy to install by end user and does not require a big amount of effort by user to prepare their mahcine to run the code.
+
 Image Compare
 =============
-A command line tool that compares two images and score them based on SSIM(Structral Similarity Index). It will read the path to two images from an Excel workbook and it will compare every two image from each row of workbook until it reaches the end and there are not more rows.
+A command line tool that compares two images and score them based on SSIM. It will read the path to two images from an Excel workbook and it will compare every two image from each row of workbook until it reaches the end and there are not more rows.
+
 
 Installation
 ------------
