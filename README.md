@@ -1,8 +1,8 @@
 Objective
 =========
-Objective of this tool is to automate the image comparison which is currently being done by collegues.
-My first goal was to research and select a language which had existing libraries/modules that handled the complexity of comparing two images perceptually, not with binary data of the images. 
-Looking at existing resources, the closest solution was SSIM(Structral Similarity Index) for comparing images. Hence, this tool is written based on the SSIM method. 
+Objective of this tool is to automate the image comparison which is currently being done by collegues.<br/>
+My first goal was to research and select a language which had existing libraries/modules that handled the complexity of comparing two images perceptually, not with binary data of the images.<br/>
+Looking at existing resources, the closest solution was SSIM(Structral Similarity Index) for comparing images. Hence, this tool is written based on the SSIM method.<br/> 
 Second goal was to select a language which is easy to install by end user and does not require a big amount of effort by user to prepare their mahcine to run the code.
 
 Image Compare
